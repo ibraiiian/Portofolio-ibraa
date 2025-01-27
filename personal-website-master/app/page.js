@@ -1,9 +1,9 @@
-import Home from "./module/Home";
+import Home from "./home/page";
 
 export default function App() {
   return (
     <div className="">
-     <Home />
+      <Home />
     </div>
   );
 }
