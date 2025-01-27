@@ -1,4 +1,3 @@
-
 import StartFirst from "./Partial/StartFirst";
 import WelcomeText from "./Partial/WelcomeText";
 import dynamic from "next/dynamic";
@@ -6,7 +5,7 @@ import Wrap from "./Partial/Wrap";
 import Loading from "./Loading";
 import LayoutFirst from "./LayoutFirst";
 
-const First = () => {
+const Home = () => {
   // const LazyLayoutFirst = dynamic(() => import("./LayoutFirst"), {
   //   loading: () => (<Loading />),
   //   ssr: false
@@ -28,4 +27,4 @@ const First = () => {
   );
 };
 
-export default First;
+export default Home;
